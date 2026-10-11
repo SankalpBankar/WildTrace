@@ -1,0 +1,30 @@
+# Python cache and virtual environment
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and generated builds
+node_modules/
+dist/
+
+# Generated model predictions and experiment outputs
+runs/
+
+# Temporary uploaded or processed files
+backend/uploads/crops/*
+backend/uploads/images/*
+backend/uploads/videos/*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
